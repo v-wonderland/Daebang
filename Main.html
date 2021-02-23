@@ -1,0 +1,931 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Main</title>
+    <link rel="stylesheet" href="css/import.css">
+    <link rel="stylesheet" href="css/swiper.min.css">
+    <link rel="stylesheet" href="css/main.css">
+    <script src="js/jqery-3.5.1.min.js"></script>
+    <script src="js/swiper-bundle.min.js"></script>
+    <script src="js/ui.js"></script>
+</head>
+<body>
+    <div id="mainPage">
+        
+        <div class="dbMain" id="main">
+            <header>
+                <h1><a href="Main.html"><img src="images/logo.png" alt="logo"></a></h1>
+                <ul class="gnb">
+                    <li><a href="Main_sub.html" target="blank">회사소개</a></li>
+                    <li><a href="#">사업분야</a></li>
+                    <li><a href="#">분양정보</a></li>
+                    <li><a href="#">홍보센터</a></li>
+                    <li><a href="#">인재채용</a></li>
+                </ul>
+                <a href="#" class="search_btn"><img src="images/search_btn.png" alt=""></a>
+                <div class="go_brand" id="goBrand"><img src="images/brand_btn.png" alt="brand_btn"></div>
+            </header>
+            <!-- header Fin -->
+
+            <main>
+                <section class="main_vsl">
+                    <div class="swiper-container">
+                        <div class="swiper-wrapper">
+                            <div class="swiper-slide videoSect">
+                                <div class="visual">
+                                    <video preload="auto" controls="controls" src="videos/main.mp4" style="width: 1920px; height: 812px"></video>
+                                </div>
+                                <!-- <div class="desc">
+                                    <dl>
+                                        <dt class="eng">LIFE CREATOR</dt>
+                                        <dd>집이 선사하는 모든 가치를 더 많은 이가 누릴 수 있도록<br>타협하지 않는 완벽함으로 우린 계속해 나아갈 것입니다.</dd>
+                                    </dl>
+                                    <a href="#"><img src="images/video_btn.png" alt="video_btn"></a>
+                                </div> -->
+                            </div>
+                            <div class="swiper-slide">
+                                <div class="visual">
+                                    <img src="images/main_s1_01.png" alt="sl01">
+                                </div>
+                                <div class="desc">
+                                    <dl>
+                                        <dt class="eng">LIFE CREATOR</dt>
+                                        <dd>집이 선사하는 모든 가치를 더 많은 이가 누릴 수 있도록<br>타협하지 않는 완벽함으로 우린 계속해 나아갈 것입니다.</dd>
+                                    </dl>
+                                    <a href="#"><img src="images/video_btn.png" alt="video_btn"></a>
+                                </div>    
+                            </div>
+                            <div class="swiper-slide">
+                                <div class="visual">
+                                    <img src="images/main_s1_01.png" alt="sl01">
+                                </div>
+                                <div class="desc">
+                                    <dl>
+                                        <dt class="eng">LIFE CREATOR</dt>
+                                        <dd>집이 선사하는 모든 가치를 더 많은 이가 누릴 수 있도록<br>타협하지 않는 완벽함으로 우린 계속해 나아갈 것입니다.</dd>
+                                    </dl>
+                                    <a href="#"><img src="images/video_btn.png" alt="video_btn"></a>
+                                </div>    
+                            </div>
+                            <div class="swiper-slide">
+                                <div class="visual">
+                                    <img src="images/main_s1_01.png" alt="sl01">
+                                </div>
+                                <div class="desc">
+                                    <dl>
+                                        <dt class="eng">LIFE CREATOR</dt>
+                                        <dd>집이 선사하는 모든 가치를 더 많은 이가 누릴 수 있도록<br>타협하지 않는 완벽함으로 우린 계속해 나아갈 것입니다.</dd>
+                                    </dl>
+                                    <a href="#"><img src="images/video_btn.png" alt="video_btn"></a>
+                                </div>    
+                            </div>
+                        </div>
+                        
+                        <div class="control">
+                            <div class="swiper-pagination eng"></div>
+                            <div class="swiper-scrollbar eng"></div>
+                        </div>
+
+                        <div class="globe">
+                            <span class="lang">Kr</span>
+                        </div>
+                        
+                        <div class="scrollBtn">
+                            <span class="txt eng">SCROLL</span>
+                            <span class="mouse"></span>
+                        </div>
+                    </div>
+                    <div class="blue_box"><img src="images/main_sl_box.png" alt=""></div>
+                    
+                    <!-- Initialize Swiper -->
+                    <script>
+                        var swiper = new Swiper('.main_vsl .swiper-container', {
+                            autoHeight:true,
+                            spaceBetween: 0,
+                            pagination: {
+                                el: '.main_vsl .control .swiper-pagination',
+                                clickable: true,
+                                renderBullet: function (index, className) {
+                                    return '<span class="' + className + '">' + "0" + (index + 1) + '</span>';
+                                },
+                            },
+                            scrollbar: {
+                                el: '.swiper-scrollbar',
+                                hide: false,
+                            },
+                        });
+                    </script>
+                </section>
+                <!-- main_vsl Fin -->
+
+                <!-- conpany Start -->
+                <section class="company">
+                    <div class="bg_wrap"><img src="images/conpany_bg.png" alt=""></div>
+                    <div class="c_nav move left"><img src="images/stnav_company.png" alt="stNav"></div>
+                    <div class="desc_wrap">
+                        <dl class="move left">
+                            <dt class="eng">COMPANY</dt>
+                            <dd>집에 대한 바른 생각<br>정직한 기업철학으로<br>고객의 행복을 지어갑니다</dd>
+                        </dl>
+                    </div>
+                    <div class="sl_wrap move">
+                        <div class="swiper-container">
+                            <div class="swiper-wrapper">
+                                <div class="swiper-slide" data-title="ABOUT">
+                                    <img src="images/company_sl_01.png" alt="">
+                                    <dl>
+                                        <dt class="eng">ABOUT US</dt>
+                                        <dd>정직한 기업철학으로 고객의 행복을 지어갑니다!</dd>
+                                    </dl>
+                                </div>
+                                <div class="swiper-slide" data-title="HISTORY">
+                                    <img src="images/company_sl_01.png" alt="">
+                                    <dl>
+                                        <dt class="eng">ABOUT US</dt>
+                                        <dd>정직한 기업철학으로 고객의 행복을 지어갑니다!</dd>
+                                    </dl>
+                                </div>
+                                <div class="swiper-slide" data-title="VISION">
+                                    <img src="images/company_sl_01.png" alt="">
+                                    <dl>
+                                        <dt class="eng">ABOUT US</dt>
+                                        <dd>정직한 기업철학으로 고객의 행복을 지어갑니다!</dd>
+                                    </dl>
+                                </div>
+                                <div class="swiper-slide" data-title="CONTACT">
+                                    <img src="images/company_sl_01.png" alt="">
+                                    <dl>
+                                        <dt class="eng">ABOUT US</dt>
+                                        <dd>정직한 기업철학으로 고객의 행복을 지어갑니다!</dd>
+                                    </dl>
+                                </div>
+                            </div>
+                            
+                        </div>
+                    </div>
+                    
+                    <div class="swiper-pagination compaging eng move"></div>
+                    <script>
+                        var titles = document.querySelectorAll('.company .sl_wrap .swiper-container .swiper-slide');
+                        var title = [];
+                            titles.forEach(function(element) {
+                                title.push(element.dataset.title);
+                            });
+
+                        var swiper = new Swiper('.company .sl_wrap .swiper-container', {
+                            autoHeight: true,
+                            slidesPerView: 'auto',
+                            spaceBetween: 155,
+                            pagination: {
+                                el: '.company .compaging',
+                                clickable: true,
+                                renderBullet: function (index, className) {
+                                    return '<span class="' + className + '">' + title[index] + '</span>';
+                                },
+                            },
+                        });
+                    </script>
+                </section>
+                <!-- company Fin -->
+                <!-- business Start -->
+                <section class="business">
+                    <video src="videos/business.mp4" autoplay muted loop style="height: 100%"></video>
+                    <dl class="move left">
+                        <dt class="eng">BUSINESS</dt>
+                        <dd>대방건설은 삶의 질을<br>향상시킨다는 꿈을<br>건설합니다</dd>
+                    </dl>
+                    <div class="b_nav"><img src="images/stnav_business.png" alt=""></div>
+                    <ul class="ic_wrap move">
+                        <li>
+                            <div class="ic">
+                                <img src="images/ic1.png" alt="">
+                                <p>주택사업</p>
+                            </div>
+                            <div class="dim n1"></div>
+                        </li>
+                        <li>
+                            <div class="ic">
+                                <img src="images/ic2.png" alt="">
+                                <p>건축사업</p>
+                            </div>
+                            <div class="dim n2"></div>
+                        </li>
+                        <li>
+                            <div class="ic">
+                                <img src="images/ic3.png" alt="">
+                                <p>토목사업</p>
+                            </div>
+                            <div class="dim n3"></div>
+                        </li>
+                        <li>
+                            <div class="ic">
+                                <img src="images/ic4.png" alt="">
+                                <p>플랜트사업</p>
+                            </div>
+                            <div class="dim n4"></div>
+                        </li>
+                    </ul>
+                </section>
+                <!-- business Fin -->
+                <section class="performance">
+                    <div class="desc_wrap move left">
+                        <dl>
+                            <dt class="eng">PERFORMANCE</dt>
+                            <dd>높이 도약합니다<br>사람을 행복하게 하는 건축이<br>바른 건축이라는 원칙을 실천합니다</dd>
+                        </dl>
+                    </div>
+                    <div class="sl_wrap move">
+                        <div class="swiper-container">
+                            <div class="swiper-wrapper">
+                                <div class="swiper-slide">
+                                    <img src="images/per_sl_03.png" alt="">
+                                    <p>김포마송택지지구 디에트르</p>
+                                </div>
+                                <div class="swiper-slide">
+                                    <img src="images/per_sl_02.png" alt="">
+                                    <p>김포마송택지지구 디에트르</p>
+                                </div>
+                                <div class="swiper-slide">
+                                    <img src="images/per_sl_01.png" alt="">
+                                    <p>김포마송택지지구 디에트르</p>
+                                </div>
+                                <div class="swiper-slide">
+                                    <img src="images/per_sl_04.png" alt="">
+                                    <p>김포마송택지지구 디에트르</p>
+                                </div>
+                            </div>
+                            <div class="paging">
+                                <div class="swiper-pagination eng"></div>
+                                <div class="swiper-button-next"></div>
+                                <div class="swiper-button-prev"></div>
+                            </div>
+                        </div>
+                        
+                    
+                        <!-- Initialize Swiper -->
+                        <script>
+                        var swiper = new Swiper('.performance .sl_wrap .swiper-container', {
+                            effect: 'fade',
+                            speed:1000,
+                            pagination: {
+                            el: '.performance .sl_wrap .swiper-pagination',
+                            type: 'fraction',
+                            },
+                            navigation: {
+                                nextEl: '.performance .sl_wrap .swiper-button-next',
+                                prevEl: '.performance .sl_wrap .swiper-button-prev',
+                            },
+                        });
+                        </script>
+                    </div>
+                </section>
+                <!-- performance Fin -->
+
+                <!-- sales start -->
+                <section class="sales">
+                    <div class="desc_wrap move left">
+                        <h2 class="eng">SALES<br>INFORMATION</h2>
+                        <a href="#"><img src="images/sales_moreBtn.png" alt=""></a>
+                    </div>
+                    <div class="sl_wrap move">
+                        <div class="swiper-container">
+                            <div class="swiper-wrapper">
+                                <div class="swiper-slide">
+                                    <img src="images/sales_sl_01.png" alt="">
+                                    <div class="desc">
+                                        <span><img src="images/sales_stat.png" alt=""></span>
+                                        <dl>
+                                            <dt>양주옥정신도시2차 노블랜드<br>프레스티지 [A-4(2)블록]</dt>
+                                            <dd class="eng">2021.02.23</dd>
+                                        </dl>
+                                    </div>
+                                </div>
+                                <div class="swiper-slide"Y">
+                                    <img src="images/sales_sl_02.png" alt="">
+                                    <div class="desc">
+                                        <span><img src="images/sales_stat.png" alt=""></span>
+                                        <dl>
+                                            <dt>세종시 3-2생활권 H블록 (2차)<br>상업시설</dt>
+                                            <dd class="eng">2021.02.23</dd>
+                                        </dl>
+                                    </div>
+                                </div>
+                                <div class="swiper-slide"">
+                                    <img src="images/sales_sl_03.png" alt="">
+                                    <div class="desc">
+                                        <span><img src="images/sales_stat.png" alt=""></span>
+                                        <dl>
+                                            <dt>부산명지3,5차 대방디엠시티<br>[6-5/6-33,4블록]</dt>
+                                            <dd class="eng">2021.02.23</dd>
+                                        </dl>
+                                    </div>
+                                </div>
+                                <div class="swiper-slide">
+                                    <img src="images/sales_sl_01.png" alt="">
+                                    <div class="desc">
+                                        <span><img src="images/sales_stat.png" alt=""></span>
+                                        <dl>
+                                            <dt>양주옥정신도시2차 노블랜드<br>프레스티지 [A-4(2)블록]</dt>
+                                            <dd class="eng">2021.02.23</dd>
+                                        </dl>
+                                    </div>
+                                </div>
+                                <div class="swiper-slide"Y">
+                                    <img src="images/sales_sl_02.png" alt="">
+                                    <div class="desc">
+                                        <span><img src="images/sales_stat.png" alt=""></span>
+                                        <dl>
+                                            <dt>세종시 3-2생활권 H블록 (2차)<br>상업시설</dt>
+                                            <dd class="eng">2021.02.23</dd>
+                                        </dl>
+                                    </div>
+                                </div>
+                                <div class="swiper-slide"">
+                                    <img src="images/sales_sl_03.png" alt="">
+                                    <div class="desc">
+                                        <span><img src="images/sales_stat.png" alt=""></span>
+                                        <dl>
+                                            <dt>부산명지3,5차 대방디엠시티<br>[6-5/6-33,4블록]</dt>
+                                            <dd class="eng">2021.02.23</dd>
+                                        </dl>
+                                    </div>
+                                </div>
+                            </div>
+                            
+                        </div>
+                        <div class="swiper-scrollbar eng"></div>
+                        <div class="paging move">
+                            <div class="swiper-button-next"></div>
+                            <div class="swiper-button-prev"></div>
+                        </div>
+                    </div>
+                
+
+
+                    <script>
+                        var swiper = new Swiper('.sales .sl_wrap .swiper-container', {
+                            autoHeight: true,
+                            slidesPerView: 'auto',
+                            spaceBetween: 50,
+                            // pagination: {
+                            //     el: '.sales .swiper-pagination',
+                            //     type: 'progressbar',
+                            // },
+                            scrollbar: {
+                                el: '.sales .swiper-scrollbar',
+                                hide: false,
+                            },
+                            navigation: {
+                                nextEl: '.sales .sl_wrap .paging .swiper-button-next',
+                                prevEl: '.sales .sl_wrap .paging .swiper-button-prev',
+                            },
+                        });
+                    </script>
+                </section>
+                <!-- sales Fin -->
+
+                <!-- brand Start -->
+                <section class="brand">
+                    <h2 class="eng move left">BRAND</h2>
+                    <div class="sl_tab move"><img src="images/brand_logo_tab.png" alt=""></div>
+                    <div class="sl_wrap move">
+                        <div class="swiper-container brand_sl">
+                            <div class="swiper-wrapper">
+                                <div class="swiper-slide">
+                                    <div class="visual"><img src="images/model.png" alt=""></div>
+                                    <div class="desc">
+                                        <dl>
+                                            <dt><img src="images/brand_desc_01.png" alt=""></dt>
+                                            <dd><img src="images/brand_desc_02.png" alt=""></dd>
+                                            <dd><img src="images/brand_desc_03.png" alt=""></dd>
+                                        </dl>
+                                    </div>
+                                    <div class="more_btn"><a href="#"><img src="images/brand_more.png" alt=""></a></div>
+                                </div>
+                                <div class="swiper-slide">
+                                    <div class="visual"><img src="images/model.png" alt=""></div>
+                                    <div class="desc">
+                                        <dl>
+                                            <dt><img src="images/brand_desc_01.png" alt=""></dt>
+                                            <dd><img src="images/brand_desc_02.png" alt=""></dd>
+                                            <dd><img src="images/brand_desc_03.png" alt=""></dd>
+                                        </dl>
+                                    </div>
+                                    <div class="more_btn"><a href="#"><img src="images/brand_more.png" alt=""></a></div>
+                                </div>
+                                <div class="swiper-slide">
+                                    <div class="visual"><img src="images/model.png" alt=""></div>
+                                    <div class="desc">
+                                        <dl>
+                                            <dt><img src="images/brand_desc_01.png" alt=""></dt>
+                                            <dd><img src="images/brand_desc_02.png" alt=""></dd>
+                                            <dd><img src="images/brand_desc_03.png" alt=""></dd>
+                                        </dl>
+                                    </div>
+                                    <div class="more_btn"><a href="#"><img src="images/brand_more.png" alt=""></a></div>
+                                </div>
+                                <div class="swiper-slide">
+                                    <div class="visual"><img src="images/model.png" alt=""></div>
+                                    <div class="desc">
+                                        <dl>
+                                            <dt><img src="images/brand_desc_01.png" alt=""></dt>
+                                            <dd><img src="images/brand_desc_02.png" alt=""></dd>
+                                            <dd><img src="images/brand_desc_03.png" alt=""></dd>
+                                        </dl>
+                                    </div>
+                                    <div class="more_btn"><a href="#"><img src="images/brand_more.png" alt=""></a></div>
+                                </div>
+                                <div class="swiper-slide">
+                                    <div class="visual"><img src="images/model.png" alt=""></div>
+                                    <div class="desc">
+                                        <dl>
+                                            <dt><img src="images/brand_desc_01.png" alt=""></dt>
+                                            <dd><img src="images/brand_desc_02.png" alt=""></dd>
+                                            <dd><img src="images/brand_desc_03.png" alt=""></dd>
+                                        </dl>
+                                    </div>
+                                    <div class="more_btn"><a href="#"><img src="images/brand_more.png" alt=""></a></div>
+                                </div>
+                                <div class="swiper-slide">
+                                    <div class="visual"><img src="images/model.png" alt=""></div>
+                                    <div class="desc">
+                                        <dl>
+                                            <dt><img src="images/brand_desc_01.png" alt=""></dt>
+                                            <dd><img src="images/brand_desc_02.png" alt=""></dd>
+                                            <dd><img src="images/brand_desc_03.png" alt=""></dd>
+                                        </dl>
+                                    </div>
+                                    <div class="more_btn"><a href="#"><img src="images/brand_more.png" alt=""></a></div>
+                                </div>
+                                <div class="swiper-slide">
+                                    <div class="visual"><img src="images/model.png" alt=""></div>
+                                    <div class="desc">
+                                        <dl>
+                                            <dt><img src="images/brand_desc_01.png" alt=""></dt>
+                                            <dd><img src="images/brand_desc_02.png" alt=""></dd>
+                                            <dd><img src="images/brand_desc_03.png" alt=""></dd>
+                                        </dl>
+                                    </div>
+                                    <div class="more_btn"><a href="#"><img src="images/brand_more.png" alt=""></a></div>
+                                </div>
+                                <div class="swiper-slide">
+                                    <div class="visual"><img src="images/model.png" alt=""></div>
+                                    <div class="desc">
+                                        <dl>
+                                            <dt><img src="images/brand_desc_01.png" alt=""></dt>
+                                            <dd><img src="images/brand_desc_02.png" alt=""></dd>
+                                            <dd><img src="images/brand_desc_03.png" alt=""></dd>
+                                        </dl>
+                                    </div>
+                                    <div class="more_btn"><a href="#"><img src="images/brand_more.png" alt=""></a></div>
+                                </div>
+                            </div>
+                            <!-- Add Arrows -->
+                            <div class="swiper-button-next"></div>
+                            <div class="swiper-button-prev"></div>
+                            
+                        </div>
+
+                    </div>
+                </section>
+                <script>
+                var swiper = new Swiper('.brand .sl_wrap .brand_sl', {
+                    effect: 'fade',
+                    speed:1500,
+                    navigation: {
+                    nextEl: '.brand .sl_wrap .swiper-button-next',
+                    prevEl: '.brand .sl_wrap .swiper-button-prev',
+                    },
+                });
+                </script>
+                <!-- brand Fin -->
+
+                <section class="media">
+                    <h2 class="eng move left">MEDIA</h2>
+                    <div class="sl_wrap move left">
+                        <div class="swiper-container media_sl">
+                            <div class="swiper-wrapper">
+                                <div class="swiper-slide">
+                                    <dl>
+                                        <dt><img src="images/media_sl_01_top.png" alt=""></dt>
+                                        <dd><img src="images/media_sl_01_bottom.png" alt=""></dd>
+                                    </dl>
+                                </div>
+                                <div class="swiper-slide">
+                                    <dl>
+                                        <dt><img src="images/media_sl_02_top.png" alt=""></dt>
+                                        <dd><img src="images/media_sl_02_bottom.png" alt=""></dd>
+                                    </dl>
+                                </div>
+                                <div class="swiper-slide">
+                                    <dl>
+                                        <dt><img src="images/media_sl_03_top.png" alt=""></dt>
+                                        <dd><img src="images/media_sl_03_bottom.png" alt=""></dd>
+                                    </dl>
+                                </div>
+                                <div class="swiper-slide">
+                                    <dl>
+                                        <dt><img src="images/media_sl_01_top.png" alt=""></dt>
+                                        <dd><img src="images/media_sl_01_bottom.png" alt=""></dd>
+                                    </dl>
+                                </div>
+                                <div class="swiper-slide">
+                                    <dl>
+                                        <dt><img src="images/media_sl_02_top.png" alt=""></dt>
+                                        <dd><img src="images/media_sl_02_bottom.png" alt=""></dd>
+                                    </dl>
+                                </div>
+                                <div class="swiper-slide">
+                                    <dl>
+                                        <dt><img src="images/media_sl_03_top.png" alt=""></dt>
+                                        <dd><img src="images/media_sl_03_bottom.png" alt=""></dd>
+                                    </dl>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    
+                    <div class="paging sl_next"><img class="move left" src="images/left_arrow_grey.png" alt=""></div>
+                    <div class="paging sl_prev"><img class="move left" src="images/left_arrow_grey.png" alt=""></div>
+                    
+
+                    <div class="more_btn move"><a href="#"><img src="images/news_more.png" alt=""></a></div>
+                    <div class="visual_wrap move">
+                        <ul>
+                            <li><h3>TV 광고</h3><img src="images/media_tv.png" alt=""><div class="dim"></div></li>
+                            <li><h3>대방스포츠단</h3><img src="images/media_sports.png" alt=""><div class="dim"></div></li>
+                            <li><h3 class="eng">Digital D</h3><img src="images/media_digital.png" alt=""><div class="dim"></div></li>
+                        </ul>
+                    </div>
+                    
+                    <script>
+                        var swiper = new Swiper('.media .media_sl', {
+                            autoHeight: true,
+                            slidesPerView: 'auto',
+                            spaceBetween: 60,
+                            navigation: {
+                                nextEl: '.media .sl_next',
+                                prevEl: '.media .sl_prev',
+                            },
+                        });
+                    </script>
+                </section>
+                <!-- media Fin -->
+
+                <section class="career">
+                    <div class="r_cont move right">
+                        <h2 class="eng">CAREER</h2>
+                        <div class="more_btn"><img src="images/recurit_btn.png" alt="recurit_btn"></div>
+                    </div>
+                    <div class="l_cont move">
+                        <ul>
+                            <li class="cont_01">
+                                <div class="ic_wrap">
+                                    <img src="images/career_ic1.png" alt="">
+                                    <dl>
+                                        <dt>대방인</dt>
+                                        <dd>인재상</dd>
+                                        <dd>직무소개</dd>
+                                        <dd>복리후생</dd>
+                                    </dl>
+                                </div>
+                            </li>
+                            <li class="cont_02">
+                                <div class="ic_wrap">
+                                    <img src="images/career_ic2.png" alt="">
+                                    <dl>
+                                        <dt>지원하기</dt>
+                                        <dd>채용공고</dd>
+                                        <dd>인재DB등록</dd>
+                                        <dd>채용절차</dd>
+                                        <dd>공지사항</dd>
+                                        <dd>자주묻는 질문</dd>
+                                    </dl>
+                                </div>
+                            </li>
+                            <li class="cont_03">
+                                <div class="status recurit">
+                                    <img src="images/career_recurit.png" alt="">
+                                    <dl>
+                                        <dt>2021년 대방건설(주)<br>상시채용</dt>
+                                        <dd class="eng">D-329</dd>
+                                    </dl>
+                                </div>
+                            </li>
+                            <li class="cont_04">
+                                <div class="status notice">
+                                    <img src="images/career_notice.png" alt="">
+                                    <dl>
+                                        <dt>시스템 점검중입니다.</dt>
+                                        <dd class="eng">2021.02.04 10:00~11:00</dd>
+                                    </dl>
+                                </div>
+                            </li>
+                        </ul>
+                    </div>
+                </section>
+            </main>
+            <footer>
+                <div class="footer_wrap"><img class="scrollTop" style="cursor: pointer;" src="images/footer_bg.png" alt=""></div>
+            </footer>
+        </div>
+    </div>
+
+    <div id="brandPage">
+        <div class="dbBrand" id="brand">
+            <header>
+                <h1><a href="#"><img src="images/brand_logo.png" alt=""></a></h1>
+                <div class="gnb">
+                    <ul>
+                        <li><a href="#">브랜드</a></li>
+                        <li><a href="Brand_sub_01.html" target="blank">단지안내</a></li>
+                        <li><a href="#">뉴스</a></li>
+                        <li><a href="#">분양/입주</a></li>
+                    </ul>
+                </div>
+                <div class="util">
+                    <ul>
+                        <li class="mem"><a href="#"><img src="images/brand_mem_btn.png" alt=""></a></li>
+                        <li class="alrt"><a href="#"><img src="images/brand_alrt_btn.png" alt=""></a></li>
+                        <li class="search"><a href="#"><img src="images/search_btn.png" alt=""></a></li>
+                    </ul>
+                </div>
+            </header>
+            <main>
+                <section class="main_vsl">
+                    <div class="go_main" id="goMain"><a href="#"><img src="images/main_btn.png" alt=""></a></div>
+                    <div class="swiper-container">
+                        <div class="swiper-wrapper">
+                            <div class="swiper-slide">
+                                <div class="visual">
+                                    <video preload="auto" controls="controls" src="videos/brand.mp4" style="width: 1920px; height: 812px;"></video>
+                                </div>
+                            </div>
+
+                            <div class="swiper-slide">
+                                <div class="visual">
+                                    <img src="images/brand_main_s1_04.png" alt="sl01">
+                                </div>
+                                <h2><img src="images/brand_main_s1_tit_04.png" alt=""></h2>
+                            </div>
+
+                            <div class="swiper-slide">
+                                <div class="visual">
+                                    <img src="images/brand_main_s1_03.png" alt="sl01">
+                                </div>
+                                <h2><img src="images/brand_main_s1_tit_03.png" alt=""></h2>
+                            </div>
+
+                            <div class="swiper-slide">
+                                <div class="visual">
+                                    <img src="images/brand_main_s1_02.png" alt="sl01">
+                                </div>
+                                <h2><img src="images/brand_main_s1_tit_02.png" alt=""></h2>
+                            </div>
+                            
+                            <div class="swiper-slide">
+                                <div class="visual">
+                                    <img src="images/brand_main_s1_01.png" alt="sl01">
+                                </div>
+                                <h2><img src="images/brand_main_s1_tit.png" alt=""></h2>
+                            </div>
+                        </div>
+                    </div>
+                    <img class="par" src="images/brand_main_sl_par.png" alt="">
+                    <div class="scrollBtn">
+                        <span class="txt eng">SCROLL</span>
+                        <span class="mouse"></span>
+                    </div>
+                    <div class="control">
+                        <div class="swiper-pagination"></div>
+                    </div>
+                    
+                    <!-- Initialize Swiper -->
+                    <script>
+                        var swiper = new Swiper('#brand .main_vsl .swiper-container', {
+                            autoHeight:true,
+                            spaceBetween: 0,
+                            pagination: {
+                                el: '#brand .main_vsl .control .swiper-pagination',
+                                type: 'fraction',
+                                clickable: true,
+                            },
+                        });
+                    </script>
+                </section>
+
+                <section class="sect_01">
+                    <div class="sect01_wrap">
+                        <ul>
+                            <li class="cont_01">
+                                <div class="desc fl move" data-scroll-speed="5">
+                                    <dl>
+                                        <dt><img src="images/brand_main_sect01_desc_01.png" alt=""></dt>
+                                        <dd><img src="images/brand_main_sect01_desc_02.png" alt=""></dd>
+                                    </dl>
+                                </div>
+                                <div class="visual fr move" data-scroll-speed="10"><img src="images/brand_main_sect01_visual_01.png" alt=""></div>
+                            </li>
+                            <li class="cont_02">
+                                <div class="visual fl move" data-scroll-speed="7"><img src="images/brand_main_sect01_visual_02.png" alt=""></div>
+                                <div class="desc fl move" data-scroll-speed="6">
+                                    <dl>
+                                        <dt><img src="images/brand_main_sect01_desc_03.png" alt=""></dt>
+                                        <dd><img src="images/brand_main_sect01_desc_04.png" alt=""></dd>
+                                        <dd><img src="images/brand_main_sect01_desc_05.png" alt=""></dd>
+                                    </dl>
+                                    <a href="#" class="move"><img src="images/brand_main_sect01_btn.png" alt=""></a>
+                                </div>
+                            </li>
+                        </ul>
+                    </div>
+                    
+                </section>
+
+                <section class="sect_02">
+                    <div class="tit">
+                        <h2><img src="images/brand_main_sect02_tit.png" alt=""></h2>
+                        <p><img src="images/brand_main_sect02_desc.png" alt=""></p>
+                    </div>
+                    <nav class="navigation" id="mainNav">
+                        <div class="navi_wrap">
+                            <a class="navigation__link active" href="#1"><img src="images/brand_main_sect03_01_tit.png" alt=""></a>
+                            <a class="navigation__link" href="#2"><img src="images/brand_main_sect03_01_tit_02.png" alt=""></a>
+                            <a class="navigation__link" href="#3"><img src="images/brand_main_sect03_01_tit_03.png" alt=""></a>
+                            <a class="navigation__link" href="#4"><img src="images/brand_main_sect03_01_tit_04.png" alt=""></a>
+                        </div>
+                    </nav>
+                    <div class="page_wrap">
+                        <div class="page-section" id="1" data-scroll-speed="30">
+                            <div class="visual">
+                                <img class="move" src="images/brand_main_sect03_01_visual_01.png" alt="" data-scroll-speed="15">
+                                <img class="move" src="images/brand_main_sect03_01_visual_02.png" alt="" data-scroll-speed="18" style="padding-top: 360px;">
+                            </div>
+                        </div>
+                        <div class="page-section" id="2" data-scroll-speed="32">
+                            <div class="visual">
+                                <img class="move" src="images/brand_main_sect03_01_visual_03.png" alt="" data-scroll-speed="14" style="padding-top: 160px;">
+                                <img class="move" src="images/brand_main_sect03_01_visual_04.png" alt="" data-scroll-speed="18">
+                            </div>
+                        </div>
+                        <div class="page-section" id="3" data-scroll-speed="33">
+                            <div class="visual">
+                                <img class="move" src="images/brand_main_sect03_01_visual_05.png" alt="" data-scroll-speed="16" style="padding-top: 80px;">
+                                <img class="move" src="images/brand_main_sect03_01_visual_06.png" alt="" data-scroll-speed="20">
+                            </div>
+                        </div>
+                        <div class="page-section" id="4" data-scroll-speed="34">
+                            <div class="visual">
+                                <img class="move" src="images/brand_main_sect03_01_visual_07.png" alt="" data-scroll-speed="20">
+                                <img class="move" src="images/brand_main_sect03_01_visual_08.png" alt="" data-scroll-speed="16" style="padding-top: 190px;">
+                            </div>
+                        </div>
+                    </div>
+                    <a href="#" class="moreBtn move" data-scroll-speed="30"><img src="images/brand_moreBtn.png" alt=""></a>
+                </section>
+
+                <section class="sect_03">
+                    <div class="sect03_wrap">
+                        <h2 class="move" data-scroll-speed="30"><img src="images/brand_main_sect04_tit.png" alt=""></h2>
+                        <ul>
+                            <li class="cont_01">
+                                <div class="inner">
+                                    <img class="visual move" src="images/brand_main_sect04_visual_01.png" alt="">
+                                    <img class="desc01 move" src="images/brand_main_sect04_desc_01.png" alt="">
+                                    <img class="btn move" src="images/brand_main_sect04_desc_01_btn.png" alt="">
+                                </div>
+                            </li>
+                            <li class="cont_02">
+                                <div class="cont_wrap">
+                                    <img class="visual move" src="images/brand_main_sect04_visual_02.png" alt="" data-scroll-speed="30">
+                                    <img class="desc01 move" src="images/brand_main_sect04_desc_02.png" alt="" data-scroll-speed="30">
+                                    <img class="btn move" src="images/brand_main_sect04_desc_02_btn.png" alt="" data-scroll-speed="30">
+                                </div>
+                            </li>
+                        </ul>
+                    </div>
+                </section>
+
+                <section class="sect_04">
+                    <div class="sect04_wrap">
+                        <ul>
+                            <li class="cont_01 move"><img src="images/brand_main_sect05_desc_01.png" alt=""></li>
+                            <li class="cont_02 move" style="transition-delay: 0.25s !important;"><img src="images/brand_main_sect05_desc_02.png" alt=""></li>
+                            <li class="cont_03 move" style="transition-delay: 0.45s !important;"><img src="images/brand_main_sect05_desc_03.png" alt=""></li>
+                        </ul>
+                    </div>
+                </section>
+
+                <section class="sect_05">
+                    <div class="sect05_wrap">
+                        <h2 class="move"><img src="images/brand_main_sect06_tit.png" alt=""></h2>
+                        <ul>
+                            <li class="move">
+                                <img src="images/brand_main_sect06_desc_01.png" alt="">
+                            </li>
+                            <li class="move" style="transition-delay: 0.25s !important;">
+                                <img src="images/brand_main_sect06_desc_02.png" alt="">
+                            </li>
+                            <li class="move" style="transition-delay: 0.45s !important;">
+                                <img src="images/brand_main_sect06_desc_03.png" alt="">
+                            </li>
+                            <li class="move" style="transition-delay: 0.65s !important;">
+                                <img src="images/brand_main_sect06_desc_04.png" alt="">
+                            </li>
+                        </ul>
+                        <a href="#" class="move"><img src="images/brand_main_sect06_btn.png" alt=""></a>
+                    </div>
+                </section>
+
+                <section class="sect_06">
+                    <div class="desc">
+                        <img src="images/brand_main_sect07_desc.png" alt="">
+                    </div>
+                </section>
+            </main>
+            <footer><img src="images/brand_footer.png" alt="" class="scrollTop" style="cursor: pointer;" ></footer>
+        </div>
+    </div>
+
+    
+
+    <script>
+        $(window).scroll(function(){
+                var st = $(window).scrollTop();
+                var bh = $(window).height();
+
+                $('.move.left').each(function(){
+                        var $this = $(this);
+                        var my_st = $this.offset().top - (bh * 0.7);
+
+                        if(st > my_st){
+                                $this.addClass('active');
+                        }
+                });
+
+                $('.move.right').each(function(){
+                        var $this = $(this);
+                        var my_st = $this.offset().top - (bh * 0.7);
+
+                        if(st > my_st){
+                                $this.addClass('active');
+                        }
+                });
+                $('.move').each(function(){
+                        var $this = $(this);
+                        var my_st = $this.offset().top - (bh * 0.7);
+
+                        if(st > my_st){
+                                $this.addClass('active');
+                        }
+                });
+        });
+        var scrollTop = $(".scrollTop");
+        
+        $(scrollTop).click(function() {
+            $('html, body').animate({
+                scrollTop: 0
+            }, 800);
+            return false;
+        });
+        
+        $(function(){
+            $('[data-scroll-speed]').moveIt();
+        });
+
+        $.fn.moveIt = function(){
+            var $window = $(window);
+            var instances = [];
+            
+            $(this).each(function(){
+                instances.push(new moveItItem($(this)));
+            });
+            
+            window.onscroll = function(){
+                var scrollTop = $window.scrollTop();
+                instances.forEach(function(inst){
+                    inst.update(scrollTop);
+                });
+            }
+        }
+
+        var moveItItem = function(el){
+            this.el = $(el);
+            this.speed = parseInt(this.el.attr('data-scroll-speed'));
+        };
+
+        moveItItem.prototype.update = function(scrollTop){
+            var pos = scrollTop / this.speed *1.4;
+            this.el.css('transform', 'translateY(' + -pos + 'px)');
+        };
+
+        // Initialization
+        $(function(){
+            $('[data-scroll-speed]').moveIt();
+        });
+    </script>
+</body>
+</html>

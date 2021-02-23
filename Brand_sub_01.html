@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>단지안내</title>
+    <link rel="stylesheet" href="css/import.css">
+    <link rel="stylesheet" href="css/swiper.min.css">
+    <link rel="stylesheet" href="css/sub.css">
+    <script src="js/jqery-3.5.1.min.js"></script>
+    <script src="js/swiper-bundle.min.js"></script>
+    <script src="js/ui.js"></script>
+</head>
+<body>
+    <div class="brand_sub01 sub">
+        <header>
+            <h1><a href="Main.html"><img src="images/brand_logo.png" alt=""></a></h1>
+            <div class="gnb">
+                <ul>
+                    <li><a href="#">브랜드</a></li>
+                    <li><a href="Brand_sub_01.html" target="blank" class="on">단지안내</a></li>
+                    <li><a href="#">뉴스</a></li>
+                    <li><a href="#">분양/입주</a></li>
+                </ul>
+            </div>
+            <div class="util">
+                <ul>
+                    <li class="mem"><a href="#"><img src="images/brand_mem_btn.png" alt=""></a></li>
+                    <li class="alrt"><a href="#"><img src="images/brand_alrt_btn.png" alt=""></a></li>
+                    <li class="search"><a href="#"><img src="images/search_btn.png" alt=""></a></li>
+                </ul>
+            </div>
+        </header>
+        <main>
+            <section class="sect_01">
+                <div class="sect01_wrap">
+                    <img class="loca" src="images/brand_sub01_loca.png" alt="">
+                    <dl>
+                        <dt><img src="images/brand_sub01_sect01_tit.png" alt=""></dt>
+                        <dd><img src="images/brand_sub01_sect01_desc.png" alt=""></dd>
+                    </dl>
+                    <div class="scrollBtn">
+                        <span class="txt eng">SCROLL</span>
+                        <span class="mouse"></span>
+                    </div>
+                </div>
+            </section>
+            <section class="sect_02">
+                <div class="sect02_wrap">
+                    
+                    <div class="swiper-container move">
+                        <div class="swiper-wrapper">
+                        <div class="swiper-slide">
+                            <a href="Brand_sub_02.html">
+                                <img src="images/brand_sub01_sl_01.png" alt="">
+                                <p>양주회천 신도시</p>
+                            </a>
+                        </div>
+                        <div class="swiper-slide">
+                            <a href="#">
+                                <img src="images/brand_sub01_sl_02.png" alt="">
+                                <p class="tit">충남내포신도시<br>3차</p>
+                            </a>
+                        </div>
+                        <div class="swiper-slide">
+                            <a href="#">
+                                <img src="images/brand_sub01_sl_03.png" alt="">
+                                <p class="tit">김포마송택지지구<br>공동주택용지</p>
+                            </a>
+                        </div>
+                        <div class="swiper-slide">
+                            <a href="#">
+                                <img src="images/brand_sub01_sl_04.png" alt="">
+                                <p class="tit">파주운정신도시<br>2,3,5차</p>
+                            </a>
+                        </div>
+                        <div class="swiper-slide">
+                            <a href="#">
+                                <img src="images/brand_sub01_sl_05.png" alt="">
+                                <p class="tit">대구국가산단</p>
+                            </a>
+                        </div>
+                        </div>
+                        <!-- Add Pagination -->
+                        <div class="swiper-pagination"></div>
+                    </div>
+
+                    <!-- Initialize Swiper -->
+                    <script>
+                        var swiper = new Swiper('.sect02_wrap .swiper-container', {
+                            slidesPerView: 'auto',
+                            spaceBetween: 30,
+                            pagination: {
+                                el: '.swiper-pagination',
+                                type: 'progressbar',
+                            },
+                            centeredSlides: true,
+                            freeMode: true,
+                        });
+                    </script>
+                </div>
+            </section>
+        </main>
+        <footer>
+            <div class="footer"><img src="images/brand_footer.png" alt="" class="scrollTop" style="cursor: pointer;" ></div>
+        </footer>
+    </div>
+</body>
+</html>

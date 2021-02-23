@@ -1,0 +1,39 @@
+@charset 'utf-8';
+
+
+@import url('../css/reset.css');
+
+@font-face{
+	font-family:Noto Serif CJK KR;
+	font-weight:bold;
+	src:url('../font/NOTOSERIFCJKKR-BOLD.OTF');
+}
+
+@font-face{
+	font-family:Noto Serif CJK KR;
+	font-weight:normal;
+	src:url('../font/NOTOSERIFCJKKR-REGULAR.OTF');
+}
+
+@font-face{
+	font-family:Noto sans KR;
+	font-weight:bold;
+	src:url('../font/NotoSansKR-Bold.otf');
+}
+
+@font-face{
+	font-family:Noto Sans KR;
+	font-weight:normal;
+	src:url('../font/NotoSansKR-Regular.otf');
+}
+
+@font-face{
+	font-family:Poppins;
+	font-weight:700;
+	src:url('../font/Poppins-Bold.ttf');
+}
+@font-face{
+	font-family:Poppins;
+	font-weight:600;
+	src:url('../font/Poppins-Medium.ttf');
+}
